@@ -56,5 +56,9 @@ export const theme = extendTheme({
         Button,
         Link,
         IconButton,
-    }
+    },
+    fonts: {
+        heading: `"Inter", sans-serif`,
+        body: `"Inter", sans-serif`,
+    },
 })

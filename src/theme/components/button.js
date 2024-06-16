@@ -1,7 +1,7 @@
 export const Button = {
     baseStyle: {
         fontWeight: 'regular',
-        borderRadius: '4px',
+        borderRadius: '7px',
         _focus: {
             outline: '2px solid',
             outlineOffset: '-2px'
@@ -45,7 +45,6 @@ export const Button = {
         'secondary': {
             outlineOffset: '-1px',
             outlineColor: 'primary',
-            bg: 'white',
             color: 'primary',
             _hover: {
                 bg: 'brandSilver'
@@ -64,7 +63,6 @@ export const Button = {
             }
         },
         'tertiary': {
-            bg: 'white',
             color: 'primary',
             _hover: {
                 bg: 'brandSilver'
