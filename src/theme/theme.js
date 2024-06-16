@@ -1,5 +1,7 @@
 import { extendTheme } from "@chakra-ui/react"
-import { components } from "./componentStyles"
+import { Button } from "./components/button"
+import { Link } from "./components/link"
+import { IconButton } from "./components/iconButton"
 
 export const theme = extendTheme({
     colors: {
@@ -50,5 +52,9 @@ export const theme = extendTheme({
         '3xl': '44px',
         '4xl': '76px',
     },
-    components
+    components: {
+        Button,
+        Link,
+        IconButton,
+    }
 })
