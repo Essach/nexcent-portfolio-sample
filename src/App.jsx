@@ -1,10 +1,16 @@
 import { Flex } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Clients from "./components/Clients";
 
 const App = () => {
   return (
     <Flex direction='column' minH='100vh' bgColor={'white'}>
-      <Navbar />
+      <Flex direction={'column'} h='100vh'>
+        <Navbar />
+        <Home />
+      </Flex>
+      <Clients />
     </Flex>
   );
 }
