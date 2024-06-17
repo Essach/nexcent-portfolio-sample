@@ -2,6 +2,7 @@ import { Flex } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Clients from "./components/Clients";
+import Manage from "./components/Manage";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Home />
       </Flex>
       <Clients />
+      <Manage />
     </Flex>
   );
 }
