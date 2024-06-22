@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <Flex px={['18px', '36px', '72px', '144px']}  bg={'brandSilver'} py='22px' alignItems={'center'} justifyContent={'space-between'}>
             <Image src={logo} _hover={{cursor:'pointer'}} />
-            <Flex gap={['10px', '25px', '25px', '50px']}>
+            <Flex gap={['10px', '25px', '25px', '50px']} display={['none','none','none','flex', 'flex', 'flex']}>
                 <Text fontSize='md' fontWeight='medium' color='secondary' _hover={{cursor: 'pointer'}}>
                     Home
                 </Text>

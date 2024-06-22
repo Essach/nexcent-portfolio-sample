@@ -9,8 +9,8 @@ import send from '../assets/icons/send.png'
 
 const Footer = () => {
     return (
-        <Grid templateColumns='5fr 7fr' bg='brandBlack' px={['72px', '72px', '72px', '144px']} py='64px'>
-            <Flex direction={'column'} justifyContent={'space-between'} >
+        <Grid templateColumns={['1fr','1fr','5fr 7fr']} bg='brandBlack' px={['72px', '72px', '72px', '144px']} py='64px' gap={['64px','64px','0']}>
+            <Flex direction={'column'} justifyContent={'space-between'} gap='32px' align={['center','center','normal']}>
                 <Box>
                     <Image src={logo} />
                 </Box>
