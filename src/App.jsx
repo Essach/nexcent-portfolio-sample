@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Clients from "./components/Clients";
 import Manage from "./components/Manage";
+import Section4 from "./components/Section4";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       </Flex>
       <Clients />
       <Manage />
+      <Section4 />
     </Flex>
   );
 }
