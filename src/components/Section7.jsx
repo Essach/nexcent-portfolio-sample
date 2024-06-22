@@ -31,8 +31,8 @@ const Section7 = () => {
                         <Image src={logo5} />
                         <Image src={logo6} />
                     </Flex>
-                    <Button variant={'tertiary'}  size={['md','lg']}>
-                        Meet all customers
+                    <Button variant={'tertiary'}  size={['md','lg']} gap='5px'>
+                        <Heading fontSize={'lg'}>Meet all customers</Heading>
                         <Image src={right} />
                     </Button>
                 </Flex>
