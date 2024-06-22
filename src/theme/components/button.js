@@ -1,6 +1,6 @@
 export const Button = {
     baseStyle: {
-        fontWeight: 'regular',
+        fontStyle: 'medium',
         borderRadius: '7px',
         _focus: {
             outline: '2px solid',
