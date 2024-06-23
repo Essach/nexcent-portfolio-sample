@@ -3,7 +3,7 @@ import illustration from '../assets/images/Frame2.png';
 
 const Section4 = () => {
     return (    
-        <Grid templateColumns={['1fr','1fr','5fr 6fr']} px={['72px', '72px', '72px', '144px']} alignItems={'center'}>
+        <Grid templateColumns={['1fr','1fr','5fr 6fr']} px={['72px', '72px', '72px', '144px']} alignItems={'center'} id='Product'>
             <Image src={illustration} objectFit={'cover'} w='100%'/>
             <Flex pr={['0', '0','144px']} direction={'column'} alignItems={['center', 'center', 'flex-start']}>
                 <Heading color='brandD_Grey' fontSize={['lg', '2xl', '3xl']} textAlign={['center', 'center', 'left']}>The unseen of spending three years at Pixelgrade</Heading>

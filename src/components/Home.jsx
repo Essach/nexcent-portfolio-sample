@@ -2,7 +2,7 @@ import { Box, Button, Flex, Grid, GridItem, Heading, Image, Text } from "@chakra
 import illustration from '../assets/images/Illustration.png'
 const Home = () => {
     return (
-        <Grid templateColumns={['1fr', '1fr', '7fr 5fr']} px={['72px', '72px', '72px', '144px']} bg='brandSilver' flexGrow={1} alignItems={'center'}>
+        <Grid templateColumns={['1fr', '1fr', '7fr 5fr']} px={['72px', '72px', '72px', '144px']} bg='brandSilver' flexGrow={1} alignItems={'center'} id='Home'>
             <Box py={'5rem'}>
                 <Box>
                     <Box>

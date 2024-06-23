@@ -6,7 +6,7 @@ import right from '../assets/icons/right.png';
 
 const Section8 = () => {
     return (
-        <Flex px={['72px', '72px', '72px', '144px']} w='100%' direction={'column'} alignItems={'center'}>
+        <Flex px={['72px', '72px', '72px', '144px']} w='100%' direction={'column'} alignItems={'center'} id="FAQ">
             <Heading color='brandD_Grey' fontSize={['lg', '2xl', '3xl']} textAlign={'center'}>
                 Caring is the new marketing
             </Heading>

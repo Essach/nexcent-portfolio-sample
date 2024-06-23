@@ -9,7 +9,7 @@ import logo7 from '../assets/images/7.png';
 
 const Clients = () => {
     return (
-        <Flex direction={'column'} w='100%' justify={'center'} align={'center'} px={['72px', '72px', '72px', '144px']} py='40px'>
+        <Flex direction={'column'} w='100%' justify={'center'} align={'center'} px={['72px', '72px', '72px', '144px']} py='40px' id='Testimonial'>
             <Heading color='brandD_Grey' fontSize={['lg', '2xl', '3xl']}>Our Clients</Heading>
             <Text mt='5px' color='brandGrey' fontSize={['md', 'lg']}>We have been working with some Fortune 500+ clients</Text>
             <Flex mt='15px' py='25px' justify={'space-around'} w='100%'>

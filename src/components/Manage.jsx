@@ -5,7 +5,7 @@ import image3 from '../assets/images/manage3.png';
 
 const Manage = () => {
     return (
-        <Flex direction={'column'} w='100%' justify={'center'} align={'center'} px={['72px', '72px', '72px', '144px']} py='40px'>
+        <Flex direction={'column'} w='100%' justify={'center'} align={'center'} px={['72px', '72px', '72px', '144px']} py='40px' id='Service'>
             <Heading color='brandD_Grey' fontSize={['lg', '2xl', '3xl']} w={['100%','100%','45%']} textAlign={'center'}>Manage your entire community in a single system</Heading>
             <Text mt='5px' color='brandGrey' fontSize={['md', 'lg']}>Who is Nexcent suitable for?
             </Text>
